@@ -134,7 +134,7 @@
 
       <div class="pill" title="GitHub Benutzername laden">
         <svg width="16" height="16" aria-hidden="true" viewBox="0 0 16 16"><path fill="#8b949e" d="M10.5 10a4.5 4.5 0 1 0-1 1l3.75 3.75 1-1zM7 11a4 4 0 1 1 0-8 4 4 0 0 1 0 8"/></svg>
-        <input id="usernameInput" placeholder="GitHub Nutzername (z.B. bylickilabs)"/>
+        <input id="usernameInput" placeholder="GitHub Nutzername (bylickilabs)"/>
         <button class="btn small" id="loadBtn" data-i18n="loadBtn">Laden</button>
       </div>
 
@@ -353,7 +353,7 @@
     function applyI18n(){
       $$('[data-i18n]').forEach(el=> el.textContent = t(el.getAttribute('data-i18n')));
       $$('[data-i18n-html]').forEach(el=> el.innerHTML = t(el.getAttribute('data-i18n-html')));
-      $('#usernameInput')?.setAttribute('placeholder', LANG==='de' ? 'GitHub Nutzername (z.B. bylickilabs)' : 'GitHub username (e.g. bylickilabs)');
+      $('#usernameInput')?.setAttribute('placeholder', LANG==='de' ? 'GitHub Nutzername (bylickilabs)' : 'GitHub username (bylickilabs)');
       $('#repoUrlInput')?.setAttribute('placeholder', LANG==='de' ? 'GitHub Repo-URL einfügen …' : 'Paste GitHub repo URL …');
       $('#search')?.setAttribute('placeholder', LANG==='de' ? 'Suche nach Name, Topics…' : 'Search by name, topics…');
       $('#langBtn').textContent = (LANG==='de'?'EN':'DE');
