@@ -62,6 +62,10 @@ It consolidates your public developer profile, renders `README.md` client-side, 
 This project is released under the **MIT License**.  
 See [LICENSE](LICENSE) for details.
 
+---
+
+👨‍💻 Developed with ❤️ by **Thorsten Bylicki · BYLICKILABS**
+
 <br>
 
 ---
