@@ -3,6 +3,9 @@
 ![Status](https://img.shields.io/badge/status-active-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
+|<img width="1280" height="640" alt="github" src="https://github.com/user-attachments/assets/67f336d8-d598-4f5f-8757-aa547c6eb6b1" />|
+|---|
+
 ---
 
 **GitHub Portfolio Hub** is a focused single-page frontend in GitHub Dark style.  
